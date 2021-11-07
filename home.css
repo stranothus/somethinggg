@@ -1,0 +1,56 @@
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: calc(100vh - 300px);
+    padding: 150px 0;
+}
+#landing-page hgroup {
+    margin: 25px 0;
+    text-align: center;
+    color: var(--txt-main);
+}
+#landing-page hgroup h1 {
+    margin: 15px 0;
+    font-family: var(--font-title);
+    font-size: 2rem;
+}
+#landing-page hgroup h3 {
+    font-family: var(--font-accent);
+    font-size: 1.2rem;
+}
+#landing-page #quick-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+#landing-page #quick-links .page-link {
+    display: block;
+    width: 250px;
+    height: 150px;
+    margin: 50px 25px;
+    padding: 15px 25px;
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+    background: linear-gradient(0.45turn, var(--accent-1), var(--accent-3));
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--bg-1);
+    box-shadow: 5px 5px 5px #00000090, 0 0 25px inset #00000030;
+    transition: 0.2s all;
+}
+#landing-page #quick-links .page-link:hover {
+    transition: 0.2s all;
+    box-shadow: 8px 8px 10px #00000090, 0 0 5px inset #00000050;
+}
+#landing-page #quick-links .page-link h2 {
+    border-bottom: 3px solid var(--bg-1);
+    margin: 0 0 20px;
+    font-family: var(--font-accent);
+    font-size: 1.3rem;
+}

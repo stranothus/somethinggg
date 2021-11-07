@@ -1,0 +1,41 @@
+#navbar {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0.2turn, var(--accent-1), var(--accent-3));
+    box-shadow: 0 3px 3px #00000090;
+}
+#navbar a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--bg-1);
+}
+#navbar #title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar #title h1 {
+    margin: 0 25px;
+    font-family: var(--font-title);
+    font-size: 1.4rem;
+}
+#navbar #title .fa {
+    cursor: pointer;
+    color: var(--bg-1);
+}
+#navbar #links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+#navbar #links a {
+    margin: 0 15px;
+    font-family: var(--font-accent);
+    font-size: 1.1rem;
+}

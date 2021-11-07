@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --bg-1: #101010;
+    --bg-2: #202020;
+    --bg-3: #303030;
+    --accent-1: #FAB000;
+    --accent-2: #FC9000;
+    --accent-3: #FF7000;
+    --txt-main: #EFEFEF;
+    --font-title: 'Roboto Condensed', sans-serif;
+    --font-accent: 'Open Sans', sans-serif;
+    --font-main: 'Lato', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--bg-2);
+}

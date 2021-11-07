@@ -1,4 +1,4 @@
-fetch("/navbar.html")
+fetch("./navbar.html")
 .then(response => response.text())
 .then(html => {
     let navbar = document.getElementById("navbar");
